@@ -1,0 +1,31 @@
+
+<install type="plugin" version="1.5" group="content">
+  <name>content zarinjoomina</name>
+  <creationDate>08-May-2011</creationDate>
+  <author>vahid hajipour</author>
+  <authorEmail>admin@barnamenevisan.ir</authorEmail>
+  <authorUrl>www.barnamenevisan.ir</authorUrl>
+  <copyright>تمامی حقوق این نرم افزار برایتیم جومینا و شرکت آریانت دلیجان  محفوظ است.</copyright>
+  <license>License GNU/GPL</license>
+  <version>1.02</version>
+   <description><![CDATA[
+			<h1 style="padding:10px; color:#066">درج کالا در مطلب زرین جومینا - وب سایت جومینا</h1>
+			<p style="padding:10px; border:1px solid #F03; background-color:#F60; color:#fff; padding:20px 5px">این افزونه این امکان را به شما میدهد تا بتوانید کالا های معرفی شده در کامپوننت همراه را  در مطالب نمایش دهید</p><p style="padding:10px; color:#39F">---------------------------------------------------------------</p>
+	<p style="padding:10px;">تهیه و آماده سازی از  <a href="http://joomina.ir" target="_blank">joomina.ir - طراحی قالب های جوملا </a>.</p>
+	<p style="padding:10px;">مرکز دانلود امکانات تخصصی جوملا <a href="http://www.joomina.ir" target="_blank">www.joomina.ir </a></p>
+	<p style="padding:10px;">جومینا هر روز یک الحاق جدید برای جوملا منتشر میکند<a href="http://joomina.ir" target="_blank">جومینا وب سایت</a></p>
+	<h1 style="padding:10px; color:#069">برای طراحی قالب های اختصاصی با ما تماس بگیرید <a  href="http://www.joomina.ir" target="_blank">www.joomina.ir (admin@joomina.ir)</a></h1>
+ <p style="padding:10px; color:#39F">---------------------------------------------------------------</p>
+<h2 style="padding:10px; color:#069">پرتـــال جومینا</h2>
+<h3 style="padding:10px; color: #033">وب سایت جومینا مرکز دانلود امکانات تخصصی فارسی جوملا <a href="http://www.joomina.ir" target="_blank">www.joomina.ir</a> </h3>
+<h3 style="padding:10px; color: #033"> جومینا هاست ، هاست تخصصی جوملا <a href="http://www.joominahost.com" target="_blank">www.joominahost.com </a> </h3>
+<h3 style="padding:10px; color: #033">جومینا اسکریپت ، اسکریپت های کاربردی فارسی <a href="http://www.joominascript.ir" target="_blank">www.joominascript.com </a> </h3>
+<h3 style="padding:10px; color: #033">جومینا آیکون , آیکون ، وکتور ، بکگراند های مخصوص طراحان سایت ها <a href="http://www.joominaicon.ir" target="_blank">www.joominaicon.com </a> </h3>
+<h3 style="padding:10px; color: #033">جومینا لرن ، مرکز آموزش های ویدئویی طراحی وب سایت بر اساس جوملا <a href="http://www.joominalearn.ir" target="_blank">www.joominalearn.ir </a> </h3>
+<h3 style="padding:10px; color: #033">فروشگاه امکانات فارسی شده جوملا <a href="http://www.joominamarket.com" target="_blank">جومینا مارکت </a> </h3>
+<h1 style="padding:10px; border:1px solid #F03; background-color:#06F; color:#fff; padding:20px 5px"> این افزونه توسط وحید حاجی پور مدیر وب سایت <a href="http://barnamenevisan.ir/" target="_blank">barnamenevisan.ir</a>و یکی از اعضای تیم مدیریت جومینا نوشته شده است </h1>]]></description>
+  <files folder="site">
+    <folder>zarinjoomina</folder>
+    <filename plugin="zarinjoomina">zarinjoomina.php</filename>
+  </files>
+</install>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD component 1.0//EN" "http://joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5">
+  <name>zarinjoomina zg</name>
+  <creationDate>09-May-2011</creationDate>
+  <author>وحید حاجی پور معروفی</author>
+  <authorEmail>admin@barnameneviasan.ir</authorEmail>
+  <authorUrl>http://barnameneviasan.ir</authorUrl>
+  <copyright>تمامی حقوق این نرم افزار برای شرکت آریانت دلیجان محفوظ است.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.02</version>
+  <description><![CDATA[
+			<h1 style="padding:10px; color:#066">کامپوننت زرین جومینا- وب سایت جومینا</h1>
+			<p style="padding:10px; border:1px solid #F03; background-color:#F60; color:#fff; padding:20px 5px">زرین جومینا کامپوننتی که بوسیله آن میتوانید یک فروشگاه آنلاین در وب سایت خود راه اندازی نمایید در این کامپوننت میتوانید کالاهای متعدد تعریف نموده و با استفاده از 2 پلاگین همراه در هر مطلب که تمایل داشتید کالاهای خود را وارد نمایید- همراه این کامپوننت 2 پلاگین هم منتشر شده است که میتوانید از وب سایت جومینا دانلود نمایید. لازم به ذکر است دانلود و نصب هر 2 پلاگین همراه برای کارکرد افزونه ضروری است</p><p style="padding:10px; color:#39F">---------------------------------------------------------------</p>
+	<p style="padding:10px;">تهیه و آماده سازی از  <a href="http://joomina.ir" target="_blank">joomina.ir - طراحی قالب های جوملا </a>.</p>
+	<p style="padding:10px;">مرکز دانلود امکانات تخصصی جوملا <a href="http://www.joomina.ir" target="_blank">www.joomina.ir </a></p>
+	<p style="padding:10px;">جومینا هر روز یک الحاق جدید برای جوملا منتشر میکند<a href="http://joomina.ir" target="_blank">جومینا وب سایت</a></p>
+	<h1 style="padding:10px; color:#069">برای طراحی قالب های اختصاصی با ما تماس بگیرید <a  href="http://www.joomina.ir" target="_blank">www.joomina.ir (admin@joomina.ir)</a></h1>
+ <p style="padding:10px; color:#39F">---------------------------------------------------------------</p>
+<h2 style="padding:10px; color:#069">پرتـــال جومینا</h2>
+<h3 style="padding:10px; color: #033">وب سایت جومینا مرکز دانلود امکانات تخصصی فارسی جوملا <a href="http://www.joomina.ir" target="_blank">www.joomina.ir</a> </h3>
+<h3 style="padding:10px; color: #033"> جومینا هاست ، هاست تخصصی جوملا <a href="http://www.joominahost.com" target="_blank">www.joominahost.com </a> </h3>
+<h3 style="padding:10px; color: #033">جومینا اسکریپت ، اسکریپت های کاربردی فارسی <a href="http://www.joominascript.ir" target="_blank">www.joominascript.com </a> </h3>
+<h3 style="padding:10px; color: #033">جومینا آیکون , آیکون ، وکتور ، بکگراند های مخصوص طراحان سایت ها <a href="http://www.joominaicon.ir" target="_blank">www.joominaicon.com </a> </h3>
+<h3 style="padding:10px; color: #033">جومینا لرن ، مرکز آموزش های ویدئویی طراحی وب سایت بر اساس جوملا <a href="http://www.joominalearn.ir" target="_blank">www.joominalearn.ir </a> </h3>
+<h3 style="padding:10px; color: #033">فروشگاه امکانات فارسی شده جوملا <a href="http://www.joominamarket.com" target="_blank">جومینا مارکت </a> </h3>
+<h1 style="padding:10px; border:1px solid #F03; background-color:#06F; color:#fff; padding:20px 5px"> این افزونه توسط وحید حاجی پور مدیر وب سایت <a href="http://barnamenevisan.ir/" target="_blank">barnamenevisan.ir</a>و یکی از اعضای تیم مدیریت جومینا نوشته شده است </h1>]]></description>
+  <installfile/>
+  <uninstallfile>install/uninstall.php</uninstallfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">install/install.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql/>
+  </uninstall>
+  <update>
+    <sql/>
+  </update>
+  <files folder="site">
+    <folder>models</folder>
+    <folder>views</folder>
+    <filename>controller.php</filename>
+    <filename>index.html</filename>
+    <filename>zarinjoomina.php</filename>
+  </files>
+  <administration>
+    <menu img="components/com_zarinjoomina/assets/images/com_zarinjoomina.ico" link="option=com_zarinjoomina">zarinjoomina</menu>
+    <submenu>
+      <menu img="stats" link="option=com_zarinjoomina&amp;controller=config&amp;task=edit&amp;cid[]=1">تنظیمات</menu>
+    </submenu>
+    <files folder="admin">
+      <folder>controllers</folder>
+      <folder>install</folder>
+      <folder>models</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+      <filename>CHANGELOG.php</filename>
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>index.html</filename>
+      <filename>zarinjoomina.php</filename>
+    </files>
+  </administration>
+  <params/>
+</install>
