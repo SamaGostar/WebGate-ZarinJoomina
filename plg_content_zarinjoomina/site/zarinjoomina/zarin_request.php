@@ -19,7 +19,11 @@
 		)
 	);
 	
-	//Redirect to URL You can do it also by creating a form
-	Header('Location: https://www.zarinpal.com/pg/StartPay/' . $res->Authority . '/');
-
+	if($res['Status']==100)
+	{
+		
+	Header('Location: https://www.zarinpal.com/pg/StartPay/' . $res->Authority);
+	}else{
+		echo'ERR: '.$res['Status'] ;
+	}
 ?>
